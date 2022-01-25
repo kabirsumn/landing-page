@@ -1,5 +1,6 @@
 <template>
   <div class="form">
+    <h2>get start</h2>
     <form action="post">
       <label for="username">
         <input
@@ -27,4 +28,12 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.form {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+}
+</style>

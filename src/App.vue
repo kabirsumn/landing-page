@@ -1,6 +1,6 @@
 <template>
-  <h1>welcome</h1>
-  <form />
+  <h1 @click="getForm">welcome</h1>
+  <Form v-if="showForm" />
 </template>
 
 <script>
@@ -9,6 +9,16 @@ import Form from './components/Form.vue';
 export default {
   name: 'App',
   components: { Form },
+  data() {
+    return {
+      showForm: false,
+    };
+  },
+  methods: {
+    getForm() {
+      this.showForm = true;
+    },
+  },
 };
 </script>
 
