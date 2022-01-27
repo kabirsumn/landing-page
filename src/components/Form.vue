@@ -35,5 +35,6 @@ export default {};
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
+  right: 0;
 }
 </style>
